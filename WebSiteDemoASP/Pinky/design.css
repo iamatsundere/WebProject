@@ -1,0 +1,263 @@
+/*HTML PAGE*/
+html
+{
+	/*background-color: gray;*/
+}
+
+header
+{
+	width: 90%;
+	height: 80px;
+
+	display: block;
+}
+
+/*HEADER*/
+header .head
+{
+	width: 100%;
+	height: 100%;
+	/*background-color: blue;*/
+	display: block;
+
+}
+
+/*LOGO*/
+header .head .logo
+{
+	/*background-color: green;*/
+	width: 30%;
+	height: 100%;
+}
+
+header .head .logo img
+{
+	height: 100%;
+}
+
+/*MENU*/
+
+.menu ul
+{
+	display: inline-block;
+
+	height: 20px;
+	margin: auto;
+}
+
+.menu ul li
+{
+	float: left;
+	text-align: center;
+	margin: 0px 8px 0px 8px;
+	font-style: normal;
+}
+
+
+.menu span
+{
+	font-family: 'Nexa Bold';
+}
+
+.menu a
+{
+
+	/*bo gach chan o tag <a>*/
+	text-decoration: none;
+	color: black;
+}
+
+.menu
+{
+ 	font-color:black;
+ 	/*background-color: pink;*/
+
+	border-width: 10px;
+	border-color: black;
+
+	width: 80%;
+	height: 100px;
+
+	left: 0;
+	right: 0;
+	top: 0;
+
+	height: auto;
+}
+
+header .head .taskbar
+{
+	/*background-color: green;*/
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}
+/*BODY*/
+body
+{
+	width: 1360px;
+	height: 1000px;
+	font-family: 'Arial';
+
+	border-color: black;
+	border-width: 10px;
+	/*background-color: blue;*/
+
+	margin: auto;
+}
+
+/*BANNER*/
+/*===========================================*/
+body #banner
+{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+
+	color: white;
+}
+
+body #banner_content 
+{
+	/*background-image: url("post-241011-versace1.png");*/
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 100%;
+	margin-top: 20px;
+}
+
+body #banner img
+{
+	display: block;
+	text-align: center;
+	height: 100%;
+	vertical-align: top;
+	/*background:url(selling-used-baby-clothes.jpg) no-repeat scroll left center rgba(0,0,0,0);*/
+}
+
+body #banner p
+{
+	text-align: center;
+	font-size: 30px;
+}
+
+body #banner button
+{
+	top:0;
+	left: 0;
+	right: 0;
+
+	width: 120px;
+	height: 40px;
+
+	background-color: transparent;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+
+	font-size: 20px;
+	text-align: center;
+
+	color: white;
+}
+
+body #banner button span
+{
+	font-weight: bold;
+}
+
+body #banner button:hover
+{
+	background-color: transparent;
+}
+
+body #latest
+{
+	margin-top:30px;
+	margin-bottom: 30px;
+
+	height: 2000px;
+	width: 1200px;
+	/*background-color: lime;*/
+
+	text-align: center;
+}
+
+body #latest .products
+{
+	list-style-type: none;
+
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+	/*background-color: red;*/
+
+	padding: 0px;
+	margin:auto;
+}
+
+body #latest .products li
+{
+	float: left;
+	width: 224px;
+	height: 400px;
+
+	/*background-color: cyan;*/
+
+	display: inline;
+	margin: 0px 8px 16px 8px;
+
+	border-color: solid black;
+	border-width: 2px;
+
+	text-align: center;
+}
+
+body .products img
+{
+	width: 100%;
+}
+
+body .products #item_name
+{
+	float: left;
+	width: 100%;
+	height: 50px;
+	/*background-color: green;*/
+}
+
+body .products #item_price
+{
+	text-align: center;
+	float: left;
+	/*background-color: yellow;*/
+	font-size: 15px;
+	width: 100%;
+	height: 25px;
+	margin:0px;
+}
+
+body .products #item_options
+{
+	text-align: center;
+	margin:0px;
+	/*background-color: crimson;*/
+	float: left;
+	font-size: 15px;
+	width: 100%;
+	height: 25px
+}
+
+/*BOTTOM*/
+body #bottom
+{
+	width: 100%;
+	height: 20%;
+	background-color: transparent;
+}
+
+body #bottom p
+{
+	margin: auto;
+}

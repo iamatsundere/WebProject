@@ -1,0 +1,36 @@
+﻿#background
+{
+    width:90%;
+    height:80%;
+    margin:auto;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input
+{
+    height:25px;
+    width:200px;
+}
+
+#submit
+{
+    width:80px;
+    height:30px;
+    background-color:pink;
+    border:1px solid white;
+    color:white;
+}
+
+#image
+{
+    width:65%;
+    height:100%;
+    float:left;
+}
+
+#dialog
+{
+    width:30%;
+    height:100%;
+    float:left;
+}

@@ -1,0 +1,289 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <title>
+                <asp:ContentPlaceHolder ID="title" runat="server">
+                    This is Title
+                </asp:ContentPlaceHolder>
+        </title>        
+		    <div class="head">
+			        <div class="taskbar">
+	                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+	                    </asp:ContentPlaceHolder>
+			        </div>
+			    <div class="logo">
+				    <img src="Pinky/Pinky_logo.png">
+			    </div>
+			    <div class="menu">
+				    <ul class="menu_option">
+					    <li class="option">
+						    <a href="">
+							    <span>FEATURES</span>		
+						    </a>
+					    </li>
+					    <li class="option">
+						    <a href="">
+							    <span>DRESS</span>		
+						    </a>
+					    </li>
+					    <li class="option">
+						    <a href="">
+							    <span>APPAREL</span>		
+						    </a>
+					    </li>
+					    <li class="option">
+						    <a href="">
+							    <span>BAGS</span>		
+						    </a>
+					    </li>
+					    <li class="option">
+						    <a href="">
+							    <span>
+									
+							    </span>		
+						    </a>
+					    </li>
+				    </ul>
+			    </div>
+		    </div>
+	</head>
+	<body>
+		<link rel="stylesheet" href="design.css" />
+		<br>
+		<br>
+		<div>		
+			<div id="banner">
+				<div id="banner_makeup">
+				</div>
+				<div id="banner_content">
+					
+						<img src="Pinky/030215-cp-pink_headers_all-apparel-1.jpg">
+					
+				</div>
+			</div>
+			
+            <div id="lastest">
+			
+				
+					<div id="latest_header">
+						<h2>LATEST</h2>
+					</div>
+				
+				<ul class="products">
+					<li class="item">
+						<img src="Pinky/V427110_RC7AF_XCRP.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V427119.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V431972_RC6NH.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V431987_EDIT.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V431990_EDIT.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V432029.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V440006_CROP1.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V440007_CROP1.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V399397_CROP1.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V413811_RC5CS_CROP1.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V440001_CROP1.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V427193_CROP1.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V427378.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+					<li class="item">
+						<img src="Pinky/V426420_RCAJ8.jpg">
+						<div  class="item_name">
+							<h4>
+								NEW ! TUNNIC CREW
+							</h4>
+						</div>
+						<p class="item_price">
+							$ 49.95
+						</p>
+						<p class="item_options">
+							3 colors
+						</p>
+					</li>
+				</ul>	
+			</div>
+			<div id="best_sell">
+				
+					
+				
+			</div>
+		</div>
+		<div id="bottom">
+			
+				<p>
+					2015 @ Phuc Truong Tien
+				</p>
+			
+		</div>
+	</body>		
+</html>
+            
